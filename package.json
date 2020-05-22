@@ -1,0 +1,23 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/brycedorn/satisfying-dvd-corners.git"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "build-gitlab": "parcel build src/index.html --public-url /svelte-reactive-map-list/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.22.3"
+  },
+  "dependencies": {}
+}
