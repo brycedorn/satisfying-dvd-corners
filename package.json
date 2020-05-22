@@ -12,12 +12,13 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "build-gitlab": "parcel build src/index.html --public-url /svelte-reactive-map-list/"
+    "build-gitlab": "parcel build src/index.html --out-dir public --public-url /satisfying-dvd-corners/"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6",
-    "svelte": "^3.22.3"
+    "parcel-plugin-svelte": "^4.0.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "svelte": "^3.22.3"
+  }
 }

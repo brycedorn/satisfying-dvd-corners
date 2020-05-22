@@ -7,6 +7,6 @@ pages:
   - npm run build-gitlab
   artifacts:
     paths:
-    - dist
+    - public
   only:
   - master
