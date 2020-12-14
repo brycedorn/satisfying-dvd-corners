@@ -7,12 +7,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/brycedorn/satisfying-dvd-corners.git"
+    "url": "https://github.com/brycedorn/satisfying-dvd-corners.git"
   },
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "build-gitlab": "parcel build src/index.html --out-dir public --public-url /satisfying-dvd-corners/"
+    "build-github": "parcel build src/index.html --out-dir public --public-url /satisfying-dvd-corners/"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",

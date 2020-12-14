@@ -2,12 +2,11 @@
 	import { onMount, onDestroy } from 'svelte';
 
 	import DVDLogo from './svg/dvd-logo.svg';
-	import gitlab from './svg/gitlab.svg';
 	import github from './svg/github.svg';
 	import dev from './svg/dev.to.svg';
 
 	let repoName = 'satisfying-dvd-corners';
-	let articleLink = 'https://dev.to/bryce/beautiful-dvd-corners-2l1d-temp-slug-4306163';
+	let articleLink = 'https://dev.to/bryce/dvd-corner-bounces-but-more-satisfying-1355';
 
 	let showControls;
 	let gridEnabled = true;
@@ -207,9 +206,6 @@
 		</a>
 		<a href="https://github.com/brycedorn/{repoName}" class="repo-link">
 			<img src={github} />
-		</a>
-		<a href="https://gitlab.com/brycedorn/{repoName}" class="repo-link">
-			<img src={gitlab} />
 		</a>
 	</div>
 </div>

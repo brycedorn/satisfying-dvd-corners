@@ -1,4 +1,4 @@
-# [satisfying-dvd-corners](https://brycedorn.gitlab.io/satisfying-dvd-corners/)
+# [satisfying-dvd-corners](https://bryce.io/satisfying-dvd-corners/)
 
 ## Getting started
 
